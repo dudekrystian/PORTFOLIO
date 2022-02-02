@@ -1,0 +1,62 @@
+.banner {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), #8c00ff), url('/images/bg-image.png');
+    opacity: 0.9;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: $font-color;
+    
+
+    &__title {
+        text-align: center;
+
+        @media(min-width: 800px) {
+            font-size: 40px;
+            margin-bottom: 50px;
+        }
+       
+    }
+
+    &__text {
+        letter-spacing: 2px;
+        width: 80%;
+        margin: 0 auto;
+
+        @media(min-width: 800px) {
+            font-size: 16px;
+        }
+
+    }
+
+    
+
+    &__button {
+
+        min-height: 50px;
+        width: 150px;
+        margin: 0 auto;
+        color: white;
+        display: block;
+        border: none;
+        background: $bg-button-color;
+        font-size: 18px;
+        border-radius: 6px;
+        outline: none;
+        cursor: pointer;
+        transition: .3s linear;
+
+        &:hover {
+            background-color: $bg-button-color-hoover;
+        }
+
+       
+    }
+
+}
+
+   
+    

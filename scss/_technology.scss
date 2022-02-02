@@ -1,0 +1,38 @@
+.technology {
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px 0;
+    width: 100%;
+    border-top: 1px solid $bg-button-color-hoover;
+
+    &__title {
+        font-size: $font-size-title;
+        margin: auto;
+        color: $font-color-title;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding-bottom: 80px;
+        
+
+    }
+
+    &__box {
+        width: 100%;
+
+        @media (min-width: 900px) {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        i {
+            color: $bg-button-color-hoover;
+            font-size: 36px;
+            margin: 5px;
+        }
+
+        
+
+        
+
+    }
+}

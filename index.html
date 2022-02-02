@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Krystian Dudek</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__hamburger">
+                <i class="hamburger__open fas fa-bars"></i>
+                <i class="hamburger__close fas fa-times"></i>
+            </div>
+            <div class="header__logo">
+                <span>
+                    {<strong>{</strong></span>dude<strong>K</strong>rystian<span><strong>}</strong>}
+                </span>
+            </div>
+
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#banner" class=" navigation__link">O mnie</a> </li>
+                    <li class="navigation__item"><a href="#projects" class="navigation__link">Projekty</a></li>
+                    <li class="navigation__item"><a href="#technology" class="navigation__link">Technologie</a></li>
+                    <li class="navigation__item"><a href="#contact" class="navigation__link">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- banner -->
+        <section id="banner" class="banner">
+            <h1 class="banner__title">Kilka słów o mnie</h1>
+            <p class="banner__text">Cześć, mam na imię Krystian. Z wykształcenia inżynier informatyk. Mieszkam w
+                Warszawie, gdzie dotychczasowe doświadczenie zawodowe zdobyłem w branży ubezpieczeniowej.
+                Rozwijam
+                swoje umiejętności jako programista z wykorzystaniem poniższych technolgii. . . </p>
+            <button class="banner__button">Zobacz</button>
+        </section>
+
+
+
+        <!-- section -->
+        <section id="projects" class="projects">
+            <h2 class="projects__title">Projekty</h2>
+            <div class="projects-box">
+                <img src="/images/project-1.png" alt="" class="projects-box__image">
+                <h3 class="projects-box__title">Aplikacja Nauka Słownictwa</h3>
+                <div class="projects-box--active-link">
+                    <button class="projects-box__button">
+                        <a class="project-box__link"
+                            href="https://dudekrystian.github.io/PROJECT-QUIZ-SPANISH-LANGUAGE/"
+                            target="_blank">Demo</a>
+                    </button>
+                    <button class="projects-box__button">
+                        <a class="project-box__link"
+                            href="https://dudekrystian.github.com/PROJECT-QUIZ-SPANISH-LANGUAGE/"
+                            target="_blank">Repozytorium</a>
+                    </button>
+
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="/images/project-2.png" alt="" class="projects-box__image">
+                <h3 class="projects-box__title">Strona Klub Szachowy</h3>
+                <div class="projects-box--active-link">
+                    <button class="projects-box__button">
+                        <a class="project-box__link" href="https://dudekrystian.github.io/WEBSITE-CHESS-CLUB/"
+                            target="_blank">Demo</a>
+                    </button>
+                    <button class="projects-box__button">
+                        <a class="project-box__link" href="https://github.com/dudekrystian/WEBSITE-CHESS-CLUB"
+                            target="_blank">Repozytorium</a>
+                    </button>
+
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="/images/project-3.png" alt="" class="projects-box__image">
+                <h3 class="projects-box__title">Aplikacja To Do w React</h3>
+                <div class="projects-box--active-link">
+                    <button class="projects-box__button">
+                        <a class="project-box__link" href="https://dudekrystian.github.io/PROJECT-REACT-TO-DO-APP/"
+                            target="_blank">Demo</a>
+                    </button>
+                    <button class="projects-box__button">
+                        <a class="project-box__link" href="https://github.com/dudekrystian/PROJECT-REACT-TO-DO-APP"
+                            target="_blank">Repozytorium</a>
+                    </button>
+
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="/images/project-4.png" alt="" class="projects-box__image">
+                <h3 class="projects-box__title">Gra Reflex</h3>
+                <div class="projects-box--active-link">
+                    <button class="projects-box__button">
+                        <a class="project-box__link" href="https://dudekrystian.github.io/GAME-REFLEX/"
+                            target="_blank">Demo</a>
+                    </button>
+                    <button class="projects-box__button">
+                        <a class="project-box__link" href="https://github.com/dudekrystian/GAME-REFLEX"
+                            target="_blank">Repozytorium</a>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- technology -->
+        <section id="technology" class="technology">
+            <h2 class="technology__title">Technologie</h2>
+            <div class="technology__box">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-angular"></i>
+                <i class="fab fa-sass"></i>
+
+            </div>
+        </section>
+
+
+        <!-- contact -->
+        <footer id="contact" class="contact">
+            <div class="contact__box">
+                <div class="contact__items">
+                    <i class="fas fa-phone"></i>
+                    <p class="contact__text"> +48 514-745-006</p>
+                </div>
+                <div class="contact__items">
+                    <i class="fas fa-at"></i>
+                    <p class="contact__text"> dudekrystian@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/scripts/main.js">
+    </script>
+
+</body>
+
+</html>

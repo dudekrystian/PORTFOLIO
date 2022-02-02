@@ -1,0 +1,71 @@
+.header {
+    min-height: 60px;
+    background: rgb(19, 102, 175);
+    display: block;
+    height: 100%;
+    overflow: visible;
+    width: 100%;
+    position: relative;
+
+    @media (min-width: 1000px) {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        flex-direction: column;
+        flex-grow: 0;
+        
+        
+    }
+  
+
+
+    &__logo {
+        position: absolute;
+        top: 15px;
+        right:  15px;
+        color: $font-color;
+        font-size: 26px;
+        line-height: 26px;
+        cursor: pointer;
+
+        @media (min-width: 1000px) {
+            flex-basis: 30%;
+            
+            
+        }
+      
+
+        span {
+            color: $bg-button-color-hoover;
+        }
+
+        strong {
+            display: inline-block;
+            color: yellow;
+            font-size: 30px;
+            line-height: 30px;
+        }
+    }
+
+    &__hamburger {
+        position: absolute;
+        top: 15px;
+        left:15px;
+        color: white;
+        font-size: 32px;
+        cursor: pointer;
+
+        @media (min-width: 1000px) {
+            display: none;
+        }
+      
+
+        .hamburger__close {
+            display: none;
+        }
+        
+    }
+
+    
+
+}
